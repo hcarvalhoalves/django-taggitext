@@ -8,7 +8,7 @@ def read(fname):
 setup(
     name='django-taggitext',
     version='0.1',
-    description="A Taggit extension for tagging autocomplete with jQuery's TextExt plugin.",
+    description="A django-taggit extension for autocompleting tags with jQuery's TextExt plugin.",
     long_description = read('README.rst'),
     author='Henrique C. Alves',
     author_email='hcarvalhoalves@gmail.com',
