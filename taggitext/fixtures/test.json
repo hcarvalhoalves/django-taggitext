@@ -1,0 +1,74 @@
+[
+    {
+        "pk": 1, 
+        "model": "taggit.tag", 
+        "fields": {
+            "name": "The Matrix", 
+            "slug": "the-matrix"
+        }
+    },
+    {
+        "pk": 2, 
+        "model": "taggit.tag", 
+        "fields": {
+            "name": "Keanu Reeves", 
+            "slug": "keanu-reeves"
+        }
+    },
+    {
+        "pk": 3, 
+        "model": "taggit.tag", 
+        "fields": {
+            "name": "Laurence Fishburne", 
+            "slug": "laurence-fishburne"
+        }
+    },
+    {
+        "pk": 4, 
+        "model": "taggit.tag", 
+        "fields": {
+            "name": "Carrie-Anne Moss", 
+            "slug": "carrie-anne-moss"
+        }
+    },
+    {
+        "pk": 5, 
+        "model": "taggit.tag", 
+        "fields": {
+            "name": "Wachowski Brothers", 
+            "slug": "wachowski-brothers"
+        }
+    },
+    {
+        "pk": 6, 
+        "model": "taggit.tag", 
+        "fields": {
+            "name": "Neo", 
+            "slug": "neo"
+        }
+    },
+    {
+        "pk": 7, 
+        "model": "taggit.tag", 
+        "fields": {
+            "name": "Morpheus", 
+            "slug": "morpheus"
+        }
+    },
+    {
+        "pk": 8, 
+        "model": "taggit.tag", 
+        "fields": {
+            "name": "Trinity", 
+            "slug": "trinity"
+        }
+    },
+    {
+        "pk": 9, 
+        "model": "taggit.tag", 
+        "fields": {
+            "name": "Agent Smith", 
+            "slug": "agent-smith"
+        }
+    }
+]

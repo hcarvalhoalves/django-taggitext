@@ -4,7 +4,9 @@ from django.utils.simplejson import dumps
 
 from taggit.models import Tag
 
+
 RESULTS = getattr(settings, 'TAGGITEXT_RESULTS_LIMIT', 20)
+
 
 # TODO: Cache the results
 def search_tags(request):

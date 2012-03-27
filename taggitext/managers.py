@@ -1,4 +1,3 @@
-from django.contrib.admin.widgets import AdminTextInputWidget
 from django.utils.translation import ugettext_lazy as _
 from django.utils.simplejson import loads
 
@@ -24,7 +23,5 @@ class TaggableManager(BaseTaggableManager):
             "help_text": "",
         }
         defaults.update(kwargs)
-        
         kwargs['widget'] = TagAutocomplete
-
         return form_class(**kwargs)
