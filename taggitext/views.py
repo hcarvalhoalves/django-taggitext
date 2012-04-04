@@ -12,8 +12,8 @@ RESULTS = getattr(settings, 'TAGGITEXT_RESULTS_LIMIT', 20)
 def search_tags(request):
     try:
         query = request.GET['q']
-        tags = Tag.objects.filter(name__icontains=query)
-        response = list(tags.values_list('name', flat=True)[:RESULTS])
+        tags = Tag.objects.filter(name__icontains=query).values_list('name', flat=True)[:RESULTS]
+        response = sorted(tags, key=lambda t: len(t))
         return HttpResponse(dumps(response), mimetype='application/json')
     except KeyError:
         return HttpResponseBadRequest()
